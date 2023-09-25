@@ -5,14 +5,20 @@ import './App.css'
 
 import LayeredXAxisBarChart from './BarChart'
 import Appers from './DynamicRecharts'
+import Container from './Multiple Drop Target/Container'
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <LayeredXAxisBarChart />
-      <Appers />
+      {/* <LayeredXAxisBarChart />
+      <Appers /> */}
+      <DndProvider backend={HTML5Backend}>
+        <Container />
+      </DndProvider>
     </>
   )
 }
