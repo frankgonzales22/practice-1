@@ -11,7 +11,7 @@ const DropTarget: React.FC<DropTargetProps> = ({ onDrop }) => {
   const [, ref] = useDrop({
     accept: 'DRAGGABLE_ITEM',
     drop: (item: any) => {
-      setDroppedItems([...droppedItems, item]);
+      setDroppedItems(prev =>[...prev, item]);
       onDrop(item);
     },
   });
@@ -27,6 +27,7 @@ const DropTarget: React.FC<DropTargetProps> = ({ onDrop }) => {
       }}
     >
       <h3>Dropped Items</h3>
+      
       <ul>
         {droppedItems.map((item, index) => (
           <li key={index}>{item.text}</li>

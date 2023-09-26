@@ -19,7 +19,7 @@ const Container: React.FC = () => {
           <DraggableItem id="item1" text="Item 1" />
           <DraggableItem id="item2" text="Item 2" />
           <DraggableItem id="item3" text="Item 3" />
-        </div>
+        </div>  
         <div>
           <h2>Drop Targets</h2>
           <DropTarget onDrop={handleDrop} />

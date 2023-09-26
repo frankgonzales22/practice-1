@@ -8,6 +8,7 @@ import Appers from './DynamicRecharts'
 import Container from './Multiple Drop Target/Container'
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
+import SaveToLocal from './Templates Save To Local Storage/SaveToLocal'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,9 +17,10 @@ function App() {
     <>
       {/* <LayeredXAxisBarChart />
       <Appers /> */}
-      <DndProvider backend={HTML5Backend}>
+      {/* <DndProvider backend={HTML5Backend}>
         <Container />
-      </DndProvider>
+      </DndProvider> */}
+      <SaveToLocal />
     </>
   )
 }
