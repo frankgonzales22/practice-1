@@ -311,7 +311,7 @@ class MyLineChart extends React.Component {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" horizontal={false} vertical={false}/>
-          <XAxis dataKey={Object.keys(data[0])[0]} />
+          <XAxis dataKey={Object.keys(data[0])[1]} />
           <YAxis />
           <Tooltip formatter={this.modifyFormatter}/>
           <Legend />
