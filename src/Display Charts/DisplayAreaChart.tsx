@@ -55,7 +55,8 @@ const DisplayAreaChart = ({ data, row, col }: DisplayAreChartProps) => {
                         // <XAxis dataKey={i} xAxisId={index} />
                         <Area type="monotone"
                          dataKey={i} 
-                        stackId={index} stroke="#8884d8"  
+                        stackId={index} 
+                        stroke={`rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255})`}
                         fill={`rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255})`}
                          />
                     )}

@@ -25,7 +25,7 @@ const DisplayCharts = () => {
             chart: 'barChart',
             row: ['regioncode'],
             value: [
-                'quota', 'nsTotal'
+                'qouta', 'nsTotal'
             ],
             templateData: [
                 {
@@ -232,7 +232,7 @@ const DisplayCharts = () => {
             templateTitle: 'Template 2',
             row: ['territorycode'],
             value: [
-                'quota', 'nsTotal'
+                'qouta', 'nsTotal'
             ],
           templateData : 
           [
@@ -1394,7 +1394,7 @@ const DisplayCharts = () => {
             templateTitle: 'Template 4',
             row: ['territorycode'],
             value: [
-                'quota', 'nsCollection'
+                'qouta', 'nsCollection'
             ],
             templateData : [
                 {
@@ -1485,6 +1485,1275 @@ const DisplayCharts = () => {
             ]
 
         },
+
+        {
+            templateId : 5,
+            chart : 'barChart',
+            templateTitle : 'Template 5',
+            row : ['empName'],
+            value : [
+                'motherbranchcode', 'territorycode'
+            ],
+            templateData : [
+                {
+                  "empName": "NOPRE, KRISTEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BARRETTO, MERDINIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VACANT, VACANT",
+                  "motherbranchcode": 175,
+                  "territorycode": 175
+                },
+                {
+                  "empName": "IÑIGO, ALMA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SILVA, JOVEN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "JALEM, MERILYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MALABRIGA, BRIDGETTE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CO, MA. VICTORIA",
+                  "motherbranchcode": 3,
+                  "territorycode": 3
+                },
+                {
+                  "empName": "JARDIN, VANISSA JOY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SALANAP JR., PABLO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MAGANA, ERENIO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AUSTRIA, ANALIZA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MARPA, JAINEE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ROLL, ANNA JEROMA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CAINGLET, ALMA MAE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BOGADOR, MINERVA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MALUBAY, AMALIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "HERNANDEZ, CHARIS JEAN",
+                  "motherbranchcode": 14,
+                  "territorycode": 14
+                },
+                {
+                  "empName": "AVENIDO, SILVANO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BASTISTIN, WILLYN JOY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SAJISE, JESUS",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "QUIRAS, JOY LYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DE VERA, ARTURO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TOCA, MICHELLE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LAYGO, LIEZEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "YU, SUSAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CACHO, KHRISTINE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CHANCHICO, ANA MARIA FELISA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MAGSINO, ALEJO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VICTORIA, ROSITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VIRAY, ALMA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CANOY, MARISSA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PIAMONTE, HERMOGINA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GEVERA, MARIE CHRIS",
+                  "motherbranchcode": 2,
+                  "territorycode": 2
+                },
+                {
+                  "empName": "LAURINO, MARIANENIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MABATID, RODRICK",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MACABALE, EMMA",
+                  "motherbranchcode": 14,
+                  "territorycode": 14
+                },
+                {
+                  "empName": "FRAMO, JULIUS CYRIL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "RIÑON, BERNADETTE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "METCHACA, MARIA JESSIBELLE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GOMEZ, ROSE ANNE",
+                  "motherbranchcode": 4,
+                  "territorycode": 4
+                },
+                {
+                  "empName": "ALCANTARA, MELANIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "QUING, VIVIAN",
+                  "motherbranchcode": 3,
+                  "territorycode": 3
+                },
+                {
+                  "empName": "SEDARIA, RAFAEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TUBALLAS, GHAY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "WANIWAN, JENELYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CANOY, JUAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "NORICO, BRIAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ENDERES, MERILISSA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ABONALLA, ROY RICHIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "FLORES, CHARLIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DACANAY, PATRICK",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "FERNANDO, AZALEA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "FERNANDEZ, MARINA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SAGMIT, NICOLAS",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GALANO, DAISY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PRADAS, MARICRIS",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MAGRAMO , REYNALDO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PRADO, RUFINA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CORDOVA, MARCO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MEDINA, JOSEPHINE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VILLANUEVA, JENALYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "IGPIT, MARK NIÑO",
+                  "motherbranchcode": 4,
+                  "territorycode": 4
+                },
+                {
+                  "empName": "DELA CALZADA, NIMFA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SOLON, LORDAN",
+                  "motherbranchcode": 14,
+                  "territorycode": 14
+                },
+                {
+                  "empName": "ALFARO, EDMAR",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DELFIN, SUSANA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BRIZUELA, ROY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "JUNIO, JERRY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SAGUIN, JOCELYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GENSON, APPLE LOVE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VELACRUZ, EDITHA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ALIBIO, NEPTHALE",
+                  "motherbranchcode": 14,
+                  "territorycode": 14
+                },
+                {
+                  "empName": "TERO, CHARITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MANGURAY, METRIN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TERO, ROMMEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PRUDENTE, DIANA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MALLE, VERNA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ALVAREZ, MARIA CECILIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GUIAO, MILAGROS",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PANERIO, EVARISTA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DE VERA, JOSELITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "QUILALA, JOHNA",
+                  "motherbranchcode": 6,
+                  "territorycode": 6
+                },
+                {
+                  "empName": "DAUZ, SHERRY ANN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ACUNIN, ALMIRA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SANGALANG, VICTORIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CASAÑARE, MA. LORENA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MANIQUIS, DONABELLA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ALESNA, RAMESES",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MANTO, MARIANNE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LIM ORMOC, MERCEDITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PALMERO, JENILYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ALANTUSON, EVELYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DELA CRUZ, ANITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TORRES JR., EDUARDO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GONZALES, LAWRENZ",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ANDO, BEVERLY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DONASCO, MARIA LUISA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AGUDA, MARELENE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LADAO, MARK",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "JAVIER, MARIA FE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "METRA, JOSIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "JERUSALEM, JASON",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "OCAMPO, BENJIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MATIAS, ROAN MARIE",
+                  "motherbranchcode": 5,
+                  "territorycode": 5
+                },
+                {
+                  "empName": "LLEJES, DAISY MAE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "IGLESIA, PAULINE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DELA PEÑA, MARIA ZETA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PABUGNAO, GISELDA CAROL MAIR",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LUCHANA, VINCENT RUEL",
+                  "motherbranchcode": 5,
+                  "territorycode": 5
+                },
+                {
+                  "empName": "BANELA, JUANITO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BARELOS, MARJOHN-CHRIS",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DE GUZMAN, RICHARD",
+                  "motherbranchcode": 14,
+                  "territorycode": 14
+                },
+                {
+                  "empName": "ABAÑO, JOANNE",
+                  "motherbranchcode": 6,
+                  "territorycode": 6
+                },
+                {
+                  "empName": "ANDRADA, HEDELYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MUYOT, LUISITO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DAGTING, MARICEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TANUTAN, JEMAIZA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BLASCO, ALEX",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PARDIÑAS, ALMA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "NECESSITO, AGNES",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SAJUL, ANN MARY CON",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BUÑAG, EDWIN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SANGALANG, MARIE JOY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CABURNAY, ESTRELLA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LUPANGO, DARYL ERICKSON",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MARTINEZ, CANDY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VALENCIA, GINA",
+                  "motherbranchcode": 14,
+                  "territorycode": 14
+                },
+                {
+                  "empName": "CATOLICO, ANALIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BERNARDINO, ERRON",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LIMPANGOG, PABLITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DUQUIATAN, LALAINE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GUTIERREZ, JONARD",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BABAD, JOY",
+                  "motherbranchcode": 6,
+                  "territorycode": 6
+                },
+                {
+                  "empName": "LAUZON, JENNIFER",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "NEPOMUCENO, GIOVANNI-CARLO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DE SAGUN, ANABELLE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "RUBIO, CLARISSA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ANGGOT, JECYL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CORDERO, DANNA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "EUPALAO, DELFIN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PARILLA, RONNEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ANGELES, NEIL ARMAND",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BENDO JR., IRENIO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GABION, ANECITO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DIZON, NORMITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AQUISAY, DIONISIO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MABANGUE, CARMEN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LLANITA, RODEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BABARAN, EDWINA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "UMALI, LILY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "FRANCISCO, JOEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "JONSON, MARIE JEAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AMADOR, JOSE-MARI",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "NUÑEZ, JOSEPHINE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CONDE, JADE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DOMINGO, BERNADETTE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MARTINEZ, MICHAEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DELANTAR, AUREA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CASTILLON, EDNA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DURAN, GERARDINN MARIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ASPACIO, FERNANDA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ZARDILLA, JOSEPH",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TAN, JHOANNA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AGUILAR, MARK ANTHONY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BALON, MARY ALICE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MALACAD, EVANGELINE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TAGUBA, ROMARICO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "RUIZ, BLANCA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CADORNA, MA. PILAR",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "RETARDO, ESTRELLITA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DELA CRUZ, ARIEL RAMON",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MACARILAY, MAGDALENA ACELA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VIOVICENTE, MARICHU",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "UMALI, ALBERT",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PARDIÑAS, HERCY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "RAMIREZ, MARY JEAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "JAVELLANA, MARYLOU",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CAGANAN, LINAFEE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BELO, MANOLITO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AFULUGENCIA, BELINDA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GERVACIO, MARIA CATALINA HAZEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CONCEPCION  JR., HONORIO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ALQUIZA, LAARNE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PRIVADO, RAQUEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DOGOLDOGOL, LEVI",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CRUDA, JR, URBANO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BANICO, GYPSY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CLEOFE, FLORELYN",
+                  "motherbranchcode": 2,
+                  "territorycode": 2
+                },
+                {
+                  "empName": "CADERAO, LUIS ROMMEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CADAVIDA, JOAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MARIÑAS, JONA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MATUBIS JR., JURY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "TAN, MELYNDA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PLAZA, RUBEN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SALAZAR, ARIESFEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "JORGE, CHARLIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CORTEZ, EFREN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ZARDILLA, JEBETH",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LIBREA, WALTER",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DIEZ, GIRLIE JANE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MURILLO, GLICERIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PLAZA, MARY ANN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GATMAITAN, EDGARDO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "DUCHOLKE, SUSANA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CARPIO, FERMINA",
+                  "motherbranchcode": 6,
+                  "territorycode": 6
+                },
+                {
+                  "empName": "BORDON, EDNA",
+                  "motherbranchcode": 3,
+                  "territorycode": 3
+                },
+                {
+                  "empName": "AGUIRRE, LUTCHE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MUJAR, MEMORY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ADORNA, LARRY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "HERNANDEZ, GINA EUGENIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AQUISAY, MA. ARCHIE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BELZA, SHEILA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "COBIAS, ROBERTO",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AGUSTIN, JOJI ANN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PAMINTUAN, TERESA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CAÑETE, FERDINAND H.",
+                  "motherbranchcode": 4,
+                  "territorycode": 4
+                },
+                {
+                  "empName": "BALBUENA, LIWLIWA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PANGILINAN, ALNARISA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CARINGAL, JOSIELYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MENDOZA, ROWENA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BACANI, JACKIE LOU",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LOPEZ, JOHNSON",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BALAURO, CERENIA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CABALZA, ERIC",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ROCACORBA, LOVELY MEA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AGUSTIN, JULIUS",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "FLORESCA, JESSE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ORTIL, JULIETA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "GUINGON, ROMMEL",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "MENESES, MICHELLE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "LARITA, ALEXANDER",
+                  "motherbranchcode": 6,
+                  "territorycode": 6
+                },
+                {
+                  "empName": "GARCIA, NELSON",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "PAN, PHILINA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "AURELIA, WILMER",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "HERNANDEZ, REMAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SENSANO, AUDREY",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "SAN MIGUEL, JOSELYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "CORDOVA, JANNETTE",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "QUILAO, JOERIEL",
+                  "motherbranchcode": 4,
+                  "territorycode": 4
+                },
+                {
+                  "empName": "ANGOLUAN, KAREN",
+                  "motherbranchcode": 1,
+                  "territorycode": 1
+                },
+                {
+                  "empName": "DIONISIO, JENIFER",
+                  "motherbranchcode": 4,
+                  "territorycode": 4
+                },
+                {
+                  "empName": "DE GUZMAN, ALBERT",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "POLINAR, MARILYN",
+                  "motherbranchcode": 3,
+                  "territorycode": 3
+                },
+                {
+                  "empName": "ESCALA, LILIAN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "ONG, MARIA TERESA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "BORROMEO, JENNLYN",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "VALERA, ALPECHE V.",
+                  "motherbranchcode": 1,
+                  "territorycode": 1
+                },
+                {
+                  "empName": "CLAMUCHA, LIZA",
+                  "motherbranchcode": 7,
+                  "territorycode": 7
+                },
+                {
+                  "empName": "EUPEÑA, RIAH",
+                  "motherbranchcode": 2,
+                  "territorycode": 2
+                },
+                {
+                  "empName": "EDERIO, ANGELI",
+                  "motherbranchcode": 1,
+                  "territorycode": 1
+                }
+              ]
+
+        },
+        
     ]
 
 
@@ -1514,7 +2783,7 @@ const DisplayCharts = () => {
     function TemplateComponent({ template }: any) {
         switch (template.chart) {
             case 'barChart':
-                return <DisplayBarChart data={template.templateData}  />;
+                return <DisplayBarChart data={template.templateData}  row={template.row} col={template.value}/>;
             case 'areaChart':
                 return <DisplayAreaChart data={template.templateData} row={template.row} col={template.value}/>;
             default:
