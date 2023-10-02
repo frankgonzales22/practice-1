@@ -14,6 +14,7 @@ import Table from './ReactTable/TableReact'
 import MainPivot from './Pivot Table/MainPivot'
 import MainDynamicChart from './Dynamic Charts/MainDynamicChart'
 import DisplayCharts from './Display Charts/DisplayCharts'
+import MultipleAxis from './Group Multiple X axis/MultipleAxis'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,7 +38,8 @@ function App() {
 
       {/* <MainDynamicChart /> */}
       <DisplayCharts />
-      
+
+    {/* <MultipleAxis />       */}
     </>
   )
 }
